@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="yashcb7-test" ></script>
-  <a href="javascript:void(0)" data-cb-type="checkout" >subscribe</a>
-  <a href="javascript:void(0)" data-cb-type="portal" >Manage account</a>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yash Vacations</title>
@@ -24,15 +21,14 @@
       </ul>
     </nav>
   </header>
-
   <main>
     <section class="hero">
       <h1>Welcome to Yash Vacations</h1>
       <p>Explore India, South India & beyond with curated weekly, monthly & international trips!</p>
       <img src="images/vacation-banner.gif" alt="Vacation GIF" class="banner" />
-      <a href="#plans" class="book-btn">Book Now</a>
+        <a href="javascript:void(0)" class="book-btn" data-cb-type="checkout" >Book Now</a>
+  <a href="javascript:void(0)" class="book-btn" data-cb-type="portal" >Manage account</a>
     </section>
-
     <section id="plans">
       <h2>Our Travel Plans</h2>
       <div class="plans-container">
